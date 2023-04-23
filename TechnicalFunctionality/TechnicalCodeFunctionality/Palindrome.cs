@@ -15,6 +15,10 @@ namespace TechnicalFunctionality
             InputString = inputString;
         }
 
+        /// <summary>
+        /// Check if the word is a palindrome.
+        /// </summary>
+        /// <returns>True or False</returns>
         public bool CheckPalindrome()
         {
             StringReverse stringReverse = new StringReverse(InputString);

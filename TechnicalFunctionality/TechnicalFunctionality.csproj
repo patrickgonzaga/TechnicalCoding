@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TechnicalCodeFunctionality\CharOccurenceCount.cs" />
     <Compile Include="TechnicalCodeFunctionality\Common.cs" />
     <Compile Include="TechnicalCodeFunctionality\Palindrome.cs" />
     <Compile Include="TechnicalCodeFunctionality\StringReverse.cs" />

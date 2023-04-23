@@ -22,7 +22,8 @@ namespace TechnicalCoding
                 Console.WriteLine("Please select a technical coding function from the following list." +
                                              "\n[1] Reverse a string" +
                                              "\n[2] Check Palindrome" +
-                                             "\n[3] Reverse words");
+                                             "\n[3] Reverse words" +
+                                             "\n[4] Count Character Occurence");
                 mainMenuSelection = Console.ReadLine();
                 do
                 {
@@ -46,6 +47,11 @@ namespace TechnicalCoding
                                 userString = new Common().InputNewString();
                                 StringReverse stringWordsReverse = new StringReverse(userString);
                                 Console.WriteLine($"Reverse Words: {stringWordsReverse.WordsToReverse()}");
+                                break;
+                            case "4":
+                                userString = new Common().InputNewString();
+                                CharOccurenceCount charOccurenceCount = new CharOccurenceCount(userString);
+                                charOccurenceCount.DisplayCharOccurence();
                                 break;
                             case "99":
                                 Environment.Exit(0);
