@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TechnicalCodeFunctionality\FindNMinorMax.cs" />
+    <Compile Include="TechnicalCodeFunctionality\Prime.cs" />
     <Compile Include="TechnicalCodeFunctionality\CharOccurenceCount.cs" />
     <Compile Include="TechnicalCodeFunctionality\Common.cs" />
     <Compile Include="TechnicalCodeFunctionality\Palindrome.cs" />
+    <Compile Include="TechnicalCodeFunctionality\RemoveDuplicateCharacter.cs" />
+    <Compile Include="TechnicalCodeFunctionality\RetrieveData.cs" />
     <Compile Include="TechnicalCodeFunctionality\StringReverse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TechnicalCodeFunctionality\SumDigits.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

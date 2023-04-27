@@ -14,5 +14,12 @@ namespace TechnicalFunctionality.TechnicalCodeFunctionality
             string inputString = Console.ReadLine();
             return inputString;
         }
+
+        public int InputNewNumber()
+        {
+            Console.Write("Enter a number: ");
+            string inputNumber = Console.ReadLine();
+            return Convert.ToInt32(inputNumber);
+        }
     }
 }

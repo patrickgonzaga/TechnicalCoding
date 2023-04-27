@@ -16,7 +16,6 @@ namespace TechnicalFunctionality
         {
             InputString = inputString.ToLower();
             string[] splitChar = InputString.Split();
-            // Dictionary<char, int> dictCharCount = new Dictionary<char, int>();
             foreach (char c in InputString.ToCharArray())
             {
                 if (dictCharCount is null)
@@ -33,24 +32,6 @@ namespace TechnicalFunctionality
                 }
             }
         }
-
-        //public Dictionary<char, int> CountOccurence()
-        //{ 
-        //    string[] splitChar = InputString.Split();
-        //    // Dictionary<char, int> dictCharCount = new Dictionary<char, int>();
-        //    foreach (char c in InputString.ToCharArray())
-        //    {
-        //        if (dictCharCount.ContainsKey(c))
-        //        {
-        //            dictCharCount[c]++;
-        //        }
-        //        else
-        //        {
-        //            dictCharCount[c] = 1;
-        //        }
-        //    }
-        //    return new Dictionary<char, int>(); 
-        //} 
 
         public void DisplayCharOccurence()
         { 
